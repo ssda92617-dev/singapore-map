@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    
+    
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7229cad1b964fb3d8a4a14cfdedd0e03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7229cad1b964fb3d8a4a14cfdedd0e03" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7229cad1b964fb3d8a4a14cfdedd0e03 = L.map(
+                "map_7229cad1b964fb3d8a4a14cfdedd0e03",
+                {
+                    center: [1.29, 103.85],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9c1f59f30794c963eaa43af30899292a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var marker_e950a039a712aa601ca5eee9ae8581d7 = L.marker(
+                [1.2834, 103.8607],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_efe76cc707c5a5c6ae9a81d9c982ecd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e950a039a712aa601ca5eee9ae8581d7.setIcon(icon_efe76cc707c5a5c6ae9a81d9c982ecd3);
+        
+    
+        var popup_643e0ff088475de360535206c928c2e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01b999fc9a887e00c0751632d52cc0db = $(`<div id="html_01b999fc9a887e00c0751632d52cc0db" style="width: 100.0%; height: 100.0%;">Marina Bay Sands (5★)</div>`)[0];
+            popup_643e0ff088475de360535206c928c2e7.setContent(html_01b999fc9a887e00c0751632d52cc0db);
+        
+
+        marker_e950a039a712aa601ca5eee9ae8581d7.bindPopup(popup_643e0ff088475de360535206c928c2e7)
+        ;
+
+        
+    
+    
+            var marker_9ab91aa08c2ff59ac16c73709383ca2c = L.marker(
+                [1.2943, 103.8553],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_76e3100473b4a1330f6845af62f662a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ab91aa08c2ff59ac16c73709383ca2c.setIcon(icon_76e3100473b4a1330f6845af62f662a1);
+        
+    
+        var popup_aa84d7fb03f0237b70a550c212a1133d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_def8428e071d140a1c85017ef70f73df = $(`<div id="html_def8428e071d140a1c85017ef70f73df" style="width: 100.0%; height: 100.0%;">Raffles Hotel Singapore (5★)</div>`)[0];
+            popup_aa84d7fb03f0237b70a550c212a1133d.setContent(html_def8428e071d140a1c85017ef70f73df);
+        
+
+        marker_9ab91aa08c2ff59ac16c73709383ca2c.bindPopup(popup_aa84d7fb03f0237b70a550c212a1133d)
+        ;
+
+        
+    
+    
+            var marker_e7322872f7faf2676b1655b232ef2c38 = L.marker(
+                [1.2863, 103.8545],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_d503b569cd68d308b2f14c8c854212d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e7322872f7faf2676b1655b232ef2c38.setIcon(icon_d503b569cd68d308b2f14c8c854212d4);
+        
+    
+        var popup_877eba4e2e1457fcee84bf2fc2352666 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0074f12c7c12a9be44d1bba6e7363da = $(`<div id="html_a0074f12c7c12a9be44d1bba6e7363da" style="width: 100.0%; height: 100.0%;">The Fullerton Hotel Singapore (5★)</div>`)[0];
+            popup_877eba4e2e1457fcee84bf2fc2352666.setContent(html_a0074f12c7c12a9be44d1bba6e7363da);
+        
+
+        marker_e7322872f7faf2676b1655b232ef2c38.bindPopup(popup_877eba4e2e1457fcee84bf2fc2352666)
+        ;
+
+        
+    
+    
+            var marker_a791c5ad9930f53f19486b09076e9858 = L.marker(
+                [1.3111, 103.8258],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_577f5eab66c47a61fb3ee07945ec12fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a791c5ad9930f53f19486b09076e9858.setIcon(icon_577f5eab66c47a61fb3ee07945ec12fe);
+        
+    
+        var popup_5d3aedc61d1183efe6b0ac8e5753296d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93e6b10a7d5fa2aa30ea449ea0a6245d = $(`<div id="html_93e6b10a7d5fa2aa30ea449ea0a6245d" style="width: 100.0%; height: 100.0%;">Shangri-La Hotel Singapore (5★)</div>`)[0];
+            popup_5d3aedc61d1183efe6b0ac8e5753296d.setContent(html_93e6b10a7d5fa2aa30ea449ea0a6245d);
+        
+
+        marker_a791c5ad9930f53f19486b09076e9858.bindPopup(popup_5d3aedc61d1183efe6b0ac8e5753296d)
+        ;
+
+        
+    
+    
+            var marker_80d320ed496c273e1ebd3b41b5cda699 = L.marker(
+                [1.289, 103.861],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_09e9d30f39ebc46ad58fba9477c67966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80d320ed496c273e1ebd3b41b5cda699.setIcon(icon_09e9d30f39ebc46ad58fba9477c67966);
+        
+    
+        var popup_5dff63d3bd9ac63910f3d66b3bcd9a56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aa438676ce5ef1276431a1f1cc382c4 = $(`<div id="html_7aa438676ce5ef1276431a1f1cc382c4" style="width: 100.0%; height: 100.0%;">The Ritz-Carlton, Millenia Singapore (5★)</div>`)[0];
+            popup_5dff63d3bd9ac63910f3d66b3bcd9a56.setContent(html_7aa438676ce5ef1276431a1f1cc382c4);
+        
+
+        marker_80d320ed496c273e1ebd3b41b5cda699.bindPopup(popup_5dff63d3bd9ac63910f3d66b3bcd9a56)
+        ;
+
+        
+    
+    
+            var marker_5f26a789ea0dfb941f84d223434286a7 = L.marker(
+                [1.3063, 103.8268],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_4580ded703fe3f8e1d0d14a6debe6cc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f26a789ea0dfb941f84d223434286a7.setIcon(icon_4580ded703fe3f8e1d0d14a6debe6cc9);
+        
+    
+        var popup_d9e6c1dabdfe95ad50edc64973d8237c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_809ec5a2db5521e0f00c336e3d5c9664 = $(`<div id="html_809ec5a2db5521e0f00c336e3d5c9664" style="width: 100.0%; height: 100.0%;">The St. Regis Singapore (5★)</div>`)[0];
+            popup_d9e6c1dabdfe95ad50edc64973d8237c.setContent(html_809ec5a2db5521e0f00c336e3d5c9664);
+        
+
+        marker_5f26a789ea0dfb941f84d223434286a7.bindPopup(popup_d9e6c1dabdfe95ad50edc64973d8237c)
+        ;
+
+        
+    
+    
+            var marker_503bf0af3b3d0edf41649cd12898a895 = L.marker(
+                [1.2474, 103.8238],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_42c47697e1d6fba6ffe1a6afd9796e0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_503bf0af3b3d0edf41649cd12898a895.setIcon(icon_42c47697e1d6fba6ffe1a6afd9796e0e);
+        
+    
+        var popup_f73d33877506563cbc1eac00c2a68c29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30acc8ae724cc4c7062c09906b002d4f = $(`<div id="html_30acc8ae724cc4c7062c09906b002d4f" style="width: 100.0%; height: 100.0%;">Capella Singapore (5★)</div>`)[0];
+            popup_f73d33877506563cbc1eac00c2a68c29.setContent(html_30acc8ae724cc4c7062c09906b002d4f);
+        
+
+        marker_503bf0af3b3d0edf41649cd12898a895.bindPopup(popup_f73d33877506563cbc1eac00c2a68c29)
+        ;
+
+        
+    
+    
+            var marker_dcc95a21e2f1da05bcad2d0387ee51e7 = L.marker(
+                [1.3051, 103.826],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_c86b46964d68b5ea68cea6fa0dcfe8cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dcc95a21e2f1da05bcad2d0387ee51e7.setIcon(icon_c86b46964d68b5ea68cea6fa0dcfe8cb);
+        
+    
+        var popup_57d46fbff16049f50653578d6ebdc288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbe27837baebeb62ef90d60b4c63cae4 = $(`<div id="html_dbe27837baebeb62ef90d60b4c63cae4" style="width: 100.0%; height: 100.0%;">Four Seasons Hotel Singapore (5★)</div>`)[0];
+            popup_57d46fbff16049f50653578d6ebdc288.setContent(html_dbe27837baebeb62ef90d60b4c63cae4);
+        
+
+        marker_dcc95a21e2f1da05bcad2d0387ee51e7.bindPopup(popup_57d46fbff16049f50653578d6ebdc288)
+        ;
+
+        
+    
+    
+            var marker_f0557bcdb6855b2e973b8522d10941f2 = L.marker(
+                [1.2894, 103.8602],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_595400b8b7445d9a93757606a1da32cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f0557bcdb6855b2e973b8522d10941f2.setIcon(icon_595400b8b7445d9a93757606a1da32cd);
+        
+    
+        var popup_0e1963c759193d3851a5d1c52de6207c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_318ff8ce518b4e0db6484bd125c3b224 = $(`<div id="html_318ff8ce518b4e0db6484bd125c3b224" style="width: 100.0%; height: 100.0%;">Mandarin Oriental Singapore (5★)</div>`)[0];
+            popup_0e1963c759193d3851a5d1c52de6207c.setContent(html_318ff8ce518b4e0db6484bd125c3b224);
+        
+
+        marker_f0557bcdb6855b2e973b8522d10941f2.bindPopup(popup_0e1963c759193d3851a5d1c52de6207c)
+        ;
+
+        
+    
+    
+            var marker_07017d990bb4d139fa655aacc1347ce9 = L.marker(
+                [1.2931, 103.8572],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_d7cc40204862c561ced088eb4b205e8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07017d990bb4d139fa655aacc1347ce9.setIcon(icon_d7cc40204862c561ced088eb4b205e8a);
+        
+    
+        var popup_41a0d8f0a1edfb249cce082f72e748a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d63f3a39baa1fbad8054cc78769a57ad = $(`<div id="html_d63f3a39baa1fbad8054cc78769a57ad" style="width: 100.0%; height: 100.0%;">JW Marriott Hotel Singapore South Beach (5★)</div>`)[0];
+            popup_41a0d8f0a1edfb249cce082f72e748a0.setContent(html_d63f3a39baa1fbad8054cc78769a57ad);
+        
+
+        marker_07017d990bb4d139fa655aacc1347ce9.bindPopup(popup_41a0d8f0a1edfb249cce082f72e748a0)
+        ;
+
+        
+    
+    
+            var marker_7ad7311a1831778a5cd6a70ee70e4de3 = L.marker(
+                [1.3058, 103.8259],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_58f41b27ca6d2f57846b1df0f635098b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ad7311a1831778a5cd6a70ee70e4de3.setIcon(icon_58f41b27ca6d2f57846b1df0f635098b);
+        
+    
+        var popup_fdd18cc11267c336c6780fdbf46458a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24acd42f3c7486a11b46892b84670870 = $(`<div id="html_24acd42f3c7486a11b46892b84670870" style="width: 100.0%; height: 100.0%;">Orchard Hotel Singapore (4★)</div>`)[0];
+            popup_fdd18cc11267c336c6780fdbf46458a5.setContent(html_24acd42f3c7486a11b46892b84670870);
+        
+
+        marker_7ad7311a1831778a5cd6a70ee70e4de3.bindPopup(popup_fdd18cc11267c336c6780fdbf46458a5)
+        ;
+
+        
+    
+    
+            var marker_f5ebe5372c193cefd72130c323ce32e5 = L.marker(
+                [1.304, 103.835],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_5024fcd8772ae7b6e02d24e2fd9fed5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5ebe5372c193cefd72130c323ce32e5.setIcon(icon_5024fcd8772ae7b6e02d24e2fd9fed5e);
+        
+    
+        var popup_85c1ee1b1efdd2f98f374b47cda79630 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f97e096fd2b970cf66b4fff7c58697f2 = $(`<div id="html_f97e096fd2b970cf66b4fff7c58697f2" style="width: 100.0%; height: 100.0%;">Hilton Orchard Singapore (4★)</div>`)[0];
+            popup_85c1ee1b1efdd2f98f374b47cda79630.setContent(html_f97e096fd2b970cf66b4fff7c58697f2);
+        
+
+        marker_f5ebe5372c193cefd72130c323ce32e5.bindPopup(popup_85c1ee1b1efdd2f98f374b47cda79630)
+        ;
+
+        
+    
+    
+            var marker_eba26763c5d2fcc6e4d319e5a508e3e9 = L.marker(
+                [1.288, 103.8389],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_ed476c490d6cdad9ab0a64e467f9b98a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eba26763c5d2fcc6e4d319e5a508e3e9.setIcon(icon_ed476c490d6cdad9ab0a64e467f9b98a);
+        
+    
+        var popup_0a44ebc2a4a37680308cea0805642ccb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcb8c18d7721012c63f45155cd1a656b = $(`<div id="html_dcb8c18d7721012c63f45155cd1a656b" style="width: 100.0%; height: 100.0%;">Four Points by Sheraton Singapore, Riverview (4★)</div>`)[0];
+            popup_0a44ebc2a4a37680308cea0805642ccb.setContent(html_dcb8c18d7721012c63f45155cd1a656b);
+        
+
+        marker_eba26763c5d2fcc6e4d319e5a508e3e9.bindPopup(popup_0a44ebc2a4a37680308cea0805642ccb)
+        ;
+
+        
+    
+    
+            var marker_d0946e0f33f2d60d0d42cc4b9d83f05b = L.marker(
+                [1.2955, 103.852],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_407d78053b72976e412c7220138172b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0946e0f33f2d60d0d42cc4b9d83f05b.setIcon(icon_407d78053b72976e412c7220138172b6);
+        
+    
+        var popup_c56a6e5e8f5c582f47449ca4b7664e63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d80716758275864bbcf9669a4b989742 = $(`<div id="html_d80716758275864bbcf9669a4b989742" style="width: 100.0%; height: 100.0%;">Carlton Hotel Singapore (4★)</div>`)[0];
+            popup_c56a6e5e8f5c582f47449ca4b7664e63.setContent(html_d80716758275864bbcf9669a4b989742);
+        
+
+        marker_d0946e0f33f2d60d0d42cc4b9d83f05b.bindPopup(popup_c56a6e5e8f5c582f47449ca4b7664e63)
+        ;
+
+        
+    
+    
+            var marker_b6b06d3e05592e31bf73ccef056ca6f5 = L.marker(
+                [1.2886, 103.8356],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_0a1e237ef71509119f4cbc140f0ead1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6b06d3e05592e31bf73ccef056ca6f5.setIcon(icon_0a1e237ef71509119f4cbc140f0ead1d);
+        
+    
+        var popup_2b6d50b572ceae9cba2989ac5559e67d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54b2a7607baacca855f8c1531760ff4c = $(`<div id="html_54b2a7607baacca855f8c1531760ff4c" style="width: 100.0%; height: 100.0%;">Holiday Inn Singapore Atrium (4★)</div>`)[0];
+            popup_2b6d50b572ceae9cba2989ac5559e67d.setContent(html_54b2a7607baacca855f8c1531760ff4c);
+        
+
+        marker_b6b06d3e05592e31bf73ccef056ca6f5.bindPopup(popup_2b6d50b572ceae9cba2989ac5559e67d)
+        ;
+
+        
+    
+    
+            var marker_82a00e56be1e6273ce3037b9919a4072 = L.marker(
+                [1.2868, 103.8453],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_b704c514b30354f6540cd8b9872b02ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82a00e56be1e6273ce3037b9919a4072.setIcon(icon_b704c514b30354f6540cd8b9872b02ce);
+        
+    
+        var popup_b41db0b1375741d37a6dfc184e962611 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f19d5758651a7905a953d540b6a25e2b = $(`<div id="html_f19d5758651a7905a953d540b6a25e2b" style="width: 100.0%; height: 100.0%;">Parkroyal on Pickering (4★)</div>`)[0];
+            popup_b41db0b1375741d37a6dfc184e962611.setContent(html_f19d5758651a7905a953d540b6a25e2b);
+        
+
+        marker_82a00e56be1e6273ce3037b9919a4072.bindPopup(popup_b41db0b1375741d37a6dfc184e962611)
+        ;
+
+        
+    
+    
+            var marker_5ce4d8ab19d5787a1ad59580f457e447 = L.marker(
+                [1.3018, 103.8391],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_ebe460f5da70e37a3ccc490bf30be724 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ce4d8ab19d5787a1ad59580f457e447.setIcon(icon_ebe460f5da70e37a3ccc490bf30be724);
+        
+    
+        var popup_940bcdf1f95f13355f5a4bc572343014 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efa2d317843e8fa9f2148d1813b2187f = $(`<div id="html_efa2d317843e8fa9f2148d1813b2187f" style="width: 100.0%; height: 100.0%;">Hotel Jen Orchardgateway Singapore (4★)</div>`)[0];
+            popup_940bcdf1f95f13355f5a4bc572343014.setContent(html_efa2d317843e8fa9f2148d1813b2187f);
+        
+
+        marker_5ce4d8ab19d5787a1ad59580f457e447.bindPopup(popup_940bcdf1f95f13355f5a4bc572343014)
+        ;
+
+        
+    
+    
+            var marker_323ccae741419e4ac7f97dc61ecd2e5d = L.marker(
+                [1.3033, 103.8562],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_2a22fcacef1c1900be4697d9d70c0c14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_323ccae741419e4ac7f97dc61ecd2e5d.setIcon(icon_2a22fcacef1c1900be4697d9d70c0c14);
+        
+    
+        var popup_63fb3401534f6ea828919bd5a9ac091f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aeaae955094cba6d6eaaeafdbf97406 = $(`<div id="html_6aeaae955094cba6d6eaaeafdbf97406" style="width: 100.0%; height: 100.0%;">Village Hotel Bugis (4★)</div>`)[0];
+            popup_63fb3401534f6ea828919bd5a9ac091f.setContent(html_6aeaae955094cba6d6eaaeafdbf97406);
+        
+
+        marker_323ccae741419e4ac7f97dc61ecd2e5d.bindPopup(popup_63fb3401534f6ea828919bd5a9ac091f)
+        ;
+
+        
+    
+    
+            var marker_e8802d6ba4dd298403070608f7bb862e = L.marker(
+                [1.292, 103.8503],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_d14f6e9860d94114c6c70f5920f4f344 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8802d6ba4dd298403070608f7bb862e.setIcon(icon_d14f6e9860d94114c6c70f5920f4f344);
+        
+    
+        var popup_bf6255a3ffc574d034dd0abd25a23dc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f41c11b9318c743425c24ce5ec84d8b = $(`<div id="html_7f41c11b9318c743425c24ce5ec84d8b" style="width: 100.0%; height: 100.0%;">Grand Park City Hall (4★)</div>`)[0];
+            popup_bf6255a3ffc574d034dd0abd25a23dc8.setContent(html_7f41c11b9318c743425c24ce5ec84d8b);
+        
+
+        marker_e8802d6ba4dd298403070608f7bb862e.bindPopup(popup_bf6255a3ffc574d034dd0abd25a23dc8)
+        ;
+
+        
+    
+    
+            var marker_cd416c005b47bc8370336bfbdf3e2e43 = L.marker(
+                [1.2912, 103.8387],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_34b9a6ea01c709e2919d214b98617fa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd416c005b47bc8370336bfbdf3e2e43.setIcon(icon_34b9a6ea01c709e2919d214b98617fa9);
+        
+    
+        var popup_0b8ac9bfd02b7386c3277894a165a5f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd2fa9a30d04d7af687053edce8f4c37 = $(`<div id="html_bd2fa9a30d04d7af687053edce8f4c37" style="width: 100.0%; height: 100.0%;">M Social Singapore (4★)</div>`)[0];
+            popup_0b8ac9bfd02b7386c3277894a165a5f6.setContent(html_bd2fa9a30d04d7af687053edce8f4c37);
+        
+
+        marker_cd416c005b47bc8370336bfbdf3e2e43.bindPopup(popup_0b8ac9bfd02b7386c3277894a165a5f6)
+        ;
+
+        
+    
+    
+            var marker_9674201cf50733aded378686c007d4df = L.marker(
+                [1.3026, 103.8522],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_903102ca1510b36dd973f4a2d91e4766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9674201cf50733aded378686c007d4df.setIcon(icon_903102ca1510b36dd973f4a2d91e4766);
+        
+    
+        var popup_92e993138055cc8a97c06107098625e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78d3413f2ddef161491428e4db5004c7 = $(`<div id="html_78d3413f2ddef161491428e4db5004c7" style="width: 100.0%; height: 100.0%;">Hotel G Singapore (3★)</div>`)[0];
+            popup_92e993138055cc8a97c06107098625e5.setContent(html_78d3413f2ddef161491428e4db5004c7);
+        
+
+        marker_9674201cf50733aded378686c007d4df.bindPopup(popup_92e993138055cc8a97c06107098625e5)
+        ;
+
+        
+    
+    
+            var marker_558272dcd6cc8b403b97c97b67c326c3 = L.marker(
+                [1.3036, 103.8523],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_3634a67f84cb81e0db3aee58b2109a37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_558272dcd6cc8b403b97c97b67c326c3.setIcon(icon_3634a67f84cb81e0db3aee58b2109a37);
+        
+    
+        var popup_16ce1cb53411b8aa8f59d3f9edd08840 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6172a8e48467c73fc32e50f5bc942dea = $(`<div id="html_6172a8e48467c73fc32e50f5bc942dea" style="width: 100.0%; height: 100.0%;">ibis Singapore on Bencoolen (3★)</div>`)[0];
+            popup_16ce1cb53411b8aa8f59d3f9edd08840.setContent(html_6172a8e48467c73fc32e50f5bc942dea);
+        
+
+        marker_558272dcd6cc8b403b97c97b67c326c3.bindPopup(popup_16ce1cb53411b8aa8f59d3f9edd08840)
+        ;
+
+        
+    
+    
+            var marker_a532fd859a399b9c510ef9670d2ec85b = L.marker(
+                [1.3018, 103.8526],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_d2def65b0a6e317fa13cbb8ea9a0151d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a532fd859a399b9c510ef9670d2ec85b.setIcon(icon_d2def65b0a6e317fa13cbb8ea9a0151d);
+        
+    
+        var popup_5398f348607e8962b1b25dc1f93b6dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_910a4be088af4ffe8441a810fe91fc86 = $(`<div id="html_910a4be088af4ffe8441a810fe91fc86" style="width: 100.0%; height: 100.0%;">Hotel Mi (3★)</div>`)[0];
+            popup_5398f348607e8962b1b25dc1f93b6dd3.setContent(html_910a4be088af4ffe8441a810fe91fc86);
+        
+
+        marker_a532fd859a399b9c510ef9670d2ec85b.bindPopup(popup_5398f348607e8962b1b25dc1f93b6dd3)
+        ;
+
+        
+    
+    
+            var marker_1c28a072c85af0b25df07fdbbc90b2ad = L.marker(
+                [1.3144, 103.902],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_8a77edc3aad8309d8dd34567eb6f0fdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c28a072c85af0b25df07fdbbc90b2ad.setIcon(icon_8a77edc3aad8309d8dd34567eb6f0fdb);
+        
+    
+        var popup_b669475f3b9541597483d3508d1b4d52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92305ca5fd3631e9648ab41d38927992 = $(`<div id="html_92305ca5fd3631e9648ab41d38927992" style="width: 100.0%; height: 100.0%;">Champion Hotel (3★)</div>`)[0];
+            popup_b669475f3b9541597483d3508d1b4d52.setContent(html_92305ca5fd3631e9648ab41d38927992);
+        
+
+        marker_1c28a072c85af0b25df07fdbbc90b2ad.bindPopup(popup_b669475f3b9541597483d3508d1b4d52)
+        ;
+
+        
+    
+    
+            var marker_c5d308a324f7a4487ccd4e0cb251b833 = L.marker(
+                [1.3073, 103.8605],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_e3bf7d62dcaf7e1e9f871baaeac0c8bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c5d308a324f7a4487ccd4e0cb251b833.setIcon(icon_e3bf7d62dcaf7e1e9f871baaeac0c8bb);
+        
+    
+        var popup_61f0b3522667ce56dcb1645c1d8edd91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_681e83530044ff1a9266b25e3a00f796 = $(`<div id="html_681e83530044ff1a9266b25e3a00f796" style="width: 100.0%; height: 100.0%;">Hotel Boss (3★)</div>`)[0];
+            popup_61f0b3522667ce56dcb1645c1d8edd91.setContent(html_681e83530044ff1a9266b25e3a00f796);
+        
+
+        marker_c5d308a324f7a4487ccd4e0cb251b833.bindPopup(popup_61f0b3522667ce56dcb1645c1d8edd91)
+        ;
+
+        
+    
+    
+            var marker_281220f6c32e21d37ce4d632d389df1f = L.marker(
+                [1.3104, 103.8612],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_72923d0c3b4e445b2de603accdff58ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_281220f6c32e21d37ce4d632d389df1f.setIcon(icon_72923d0c3b4e445b2de603accdff58ea);
+        
+    
+        var popup_3756d6240f66d9c764272e27a68766ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eb645304e6186d6be7f8ae5ddb01c28 = $(`<div id="html_6eb645304e6186d6be7f8ae5ddb01c28" style="width: 100.0%; height: 100.0%;">Hotel 81 (3★)</div>`)[0];
+            popup_3756d6240f66d9c764272e27a68766ba.setContent(html_6eb645304e6186d6be7f8ae5ddb01c28);
+        
+
+        marker_281220f6c32e21d37ce4d632d389df1f.bindPopup(popup_3756d6240f66d9c764272e27a68766ba)
+        ;
+
+        
+    
+    
+            var marker_1004a632d08c3e41be8b8bb0b68125d3 = L.marker(
+                [1.3059, 103.8584],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_3b9583ff46299320c7ca9cb7b7186e00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1004a632d08c3e41be8b8bb0b68125d3.setIcon(icon_3b9583ff46299320c7ca9cb7b7186e00);
+        
+    
+        var popup_7a5ddaf00448bcf4a3caaa8cfa53bcb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0537b418954d9499a00b330c9b9ec650 = $(`<div id="html_0537b418954d9499a00b330c9b9ec650" style="width: 100.0%; height: 100.0%;">Santa Grand Hotel Bugis (3★)</div>`)[0];
+            popup_7a5ddaf00448bcf4a3caaa8cfa53bcb7.setContent(html_0537b418954d9499a00b330c9b9ec650);
+        
+
+        marker_1004a632d08c3e41be8b8bb0b68125d3.bindPopup(popup_7a5ddaf00448bcf4a3caaa8cfa53bcb7)
+        ;
+
+        
+    
+    
+            var marker_9697ab17c1bad74441e333f47ec38633 = L.marker(
+                [1.307, 103.863],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_ca8a0d4e12c6ffc80ab3363c269e34c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9697ab17c1bad74441e333f47ec38633.setIcon(icon_ca8a0d4e12c6ffc80ab3363c269e34c2);
+        
+    
+        var popup_fd21a3d14f392551156446724422aea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25ec87b0b3fb3ed998d108485a574281 = $(`<div id="html_25ec87b0b3fb3ed998d108485a574281" style="width: 100.0%; height: 100.0%;">V Hotel Lavender (3★)</div>`)[0];
+            popup_fd21a3d14f392551156446724422aea7.setContent(html_25ec87b0b3fb3ed998d108485a574281);
+        
+
+        marker_9697ab17c1bad74441e333f47ec38633.bindPopup(popup_fd21a3d14f392551156446724422aea7)
+        ;
+
+        
+    
+    
+            var marker_fd840cb0b1b79b4510cf263d2184bac9 = L.marker(
+                [1.3045, 103.8321],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_296328b6d1b6ae8e170d71022d863101 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd840cb0b1b79b4510cf263d2184bac9.setIcon(icon_296328b6d1b6ae8e170d71022d863101);
+        
+    
+        var popup_652d8344bf5ad82822ed9bdade75c2e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_167341f0c4993278b79924ed1256911a = $(`<div id="html_167341f0c4993278b79924ed1256911a" style="width: 100.0%; height: 100.0%;">YOTEL Singapore Orchard Road (3★)</div>`)[0];
+            popup_652d8344bf5ad82822ed9bdade75c2e4.setContent(html_167341f0c4993278b79924ed1256911a);
+        
+
+        marker_fd840cb0b1b79b4510cf263d2184bac9.bindPopup(popup_652d8344bf5ad82822ed9bdade75c2e4)
+        ;
+
+        
+    
+    
+            var marker_29e480cd4c608fe313eb044cc10520d9 = L.marker(
+                [1.2882, 103.8485],
+                {}
+            ).addTo(map_7229cad1b964fb3d8a4a14cfdedd0e03);
+        
+    
+            var icon_695375b2523568639a072bc0505d66df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_29e480cd4c608fe313eb044cc10520d9.setIcon(icon_695375b2523568639a072bc0505d66df);
+        
+    
+        var popup_2f0f164ae4c2cbc666c29db15a348ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ba095bf4845a08ed6253d2c5de807f1 = $(`<div id="html_0ba095bf4845a08ed6253d2c5de807f1" style="width: 100.0%; height: 100.0%;">Fragrance Hotel – Riverside (3★)</div>`)[0];
+            popup_2f0f164ae4c2cbc666c29db15a348ff2.setContent(html_0ba095bf4845a08ed6253d2c5de807f1);
+        
+
+        marker_29e480cd4c608fe313eb044cc10520d9.bindPopup(popup_2f0f164ae4c2cbc666c29db15a348ff2)
+        ;
+
+        
+    
+</script>
+</html>
