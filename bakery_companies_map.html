@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8fd348efa95604859b889e9c3ba46508 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8fd348efa95604859b889e9c3ba46508" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8fd348efa95604859b889e9c3ba46508 = L.map(
+                "map_8fd348efa95604859b889e9c3ba46508",
+                {
+                    center: [1.3521, 103.8198],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3e5b71e200369adf93154ae213ec7a05 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var marker_47b4053300dd7df9c295fa4e6f709112 = L.marker(
+                [1.46, 103.79],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_4f55ca25867431d33d790749af5adcee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_47b4053300dd7df9c295fa4e6f709112.setIcon(icon_4f55ca25867431d33d790749af5adcee);
+        
+    
+        var popup_92353ac864afc9df4bde6034bd51a1e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c484cce65d5dd806e2232fe0d060d967 = $(`<div id="html_c484cce65d5dd806e2232fe0d060d967" style="width: 100.0%; height: 100.0%;"><b>Pastry Mart Singapore</b><br>Category: Wholesale<br>Address: #05-05 FoodAxis @ Senoko, 1 Senoko Ave, 758297</div>`)[0];
+            popup_92353ac864afc9df4bde6034bd51a1e9.setContent(html_c484cce65d5dd806e2232fe0d060d967);
+        
+
+        marker_47b4053300dd7df9c295fa4e6f709112.bindPopup(popup_92353ac864afc9df4bde6034bd51a1e9)
+        ;
+
+        
+    
+    
+            var marker_19204bc0599126348949b5a4a6c972bd = L.marker(
+                [1.32, 103.7],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_9992588653e6b2a5ccd59410a97daf2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19204bc0599126348949b5a4a6c972bd.setIcon(icon_9992588653e6b2a5ccd59410a97daf2e);
+        
+    
+        var popup_17b4817d9c6f34b611161cf53164cebb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d54f8caec97d68a8dd756ee77d008d07 = $(`<div id="html_d54f8caec97d68a8dd756ee77d008d07" style="width: 100.0%; height: 100.0%;"><b>Bakels Singapore</b><br>Category: Manufacturer & Wholesale<br>Address: 65 Quality Rd, 618820</div>`)[0];
+            popup_17b4817d9c6f34b611161cf53164cebb.setContent(html_d54f8caec97d68a8dd756ee77d008d07);
+        
+
+        marker_19204bc0599126348949b5a4a6c972bd.bindPopup(popup_17b4817d9c6f34b611161cf53164cebb)
+        ;
+
+        
+    
+    
+            var marker_9d8311aa81f34ced9c1d2149f94b6d97 = L.marker(
+                [1.45, 103.8],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_b216b9c59aeb105b8a73e511d2dea1f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d8311aa81f34ced9c1d2149f94b6d97.setIcon(icon_b216b9c59aeb105b8a73e511d2dea1f9);
+        
+    
+        var popup_f635fd20d2731d94f249b0e92961a8b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_071b2db41ad9301236c423a1c381ad7b = $(`<div id="html_071b2db41ad9301236c423a1c381ad7b" style="width: 100.0%; height: 100.0%;"><b>Baker’s Oven</b><br>Category: Manufacturer<br>Address: 1E Senoko Crescent / Blk 15 Woodlands Loop #03-12</div>`)[0];
+            popup_f635fd20d2731d94f249b0e92961a8b0.setContent(html_071b2db41ad9301236c423a1c381ad7b);
+        
+
+        marker_9d8311aa81f34ced9c1d2149f94b6d97.bindPopup(popup_f635fd20d2731d94f249b0e92961a8b0)
+        ;
+
+        
+    
+    
+            var marker_713702f99b6cee3fea2314976f663d3e = L.marker(
+                [1.31, 103.72],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_7cf5a9a34465dc98482fc0f9a56bfb4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_713702f99b6cee3fea2314976f663d3e.setIcon(icon_7cf5a9a34465dc98482fc0f9a56bfb4f);
+        
+    
+        var popup_3d9ebd7878e78516c89cef20f7b72d7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_136c7af935f0a8798d0c3bd4f10cc88a = $(`<div id="html_136c7af935f0a8798d0c3bd4f10cc88a" style="width: 100.0%; height: 100.0%;"><b>Lim Siang Huat</b><br>Category: Wholesale<br>Address: 6 Fishery Port Rd #02, 619747</div>`)[0];
+            popup_3d9ebd7878e78516c89cef20f7b72d7b.setContent(html_136c7af935f0a8798d0c3bd4f10cc88a);
+        
+
+        marker_713702f99b6cee3fea2314976f663d3e.bindPopup(popup_3d9ebd7878e78516c89cef20f7b72d7b)
+        ;
+
+        
+    
+    
+            var marker_7ef90dcfba860db24105581dd5bab894 = L.marker(
+                [1.31, 103.75],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_00ba0b0adf06aa901aef5a35310c4300 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ef90dcfba860db24105581dd5bab894.setIcon(icon_00ba0b0adf06aa901aef5a35310c4300);
+        
+    
+        var popup_f48e6796a33fdea6033fbe3b8c440ebe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c3691666f888356b8a6c483c57214bf = $(`<div id="html_9c3691666f888356b8a6c483c57214bf" style="width: 100.0%; height: 100.0%;"><b>Phoon Huat</b><br>Category: Retail + Wholesale<br>Address: 231A Pandan Loop, 128419</div>`)[0];
+            popup_f48e6796a33fdea6033fbe3b8c440ebe.setContent(html_9c3691666f888356b8a6c483c57214bf);
+        
+
+        marker_7ef90dcfba860db24105581dd5bab894.bindPopup(popup_f48e6796a33fdea6033fbe3b8c440ebe)
+        ;
+
+        
+    
+    
+            var marker_ce98b2da6c97f46ac457a8c2bbbe2075 = L.marker(
+                [3.05, 101.55],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_29a23839e29de0901b9ec94807642d41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce98b2da6c97f46ac457a8c2bbbe2075.setIcon(icon_29a23839e29de0901b9ec94807642d41);
+        
+    
+        var popup_649ba71a3d7fd66cd74e1a22fd5bb2f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3cdf0b1c4c249f80ac4cbf51af607c7 = $(`<div id="html_b3cdf0b1c4c249f80ac4cbf51af607c7" style="width: 100.0%; height: 100.0%;"><b>Bake with Yen</b><br>Category: Retail + Wholesale (MY)<br>Address: No.22 Jalan Anggerik Mokara 31/44, Shah Alam, Malaysia</div>`)[0];
+            popup_649ba71a3d7fd66cd74e1a22fd5bb2f5.setContent(html_b3cdf0b1c4c249f80ac4cbf51af607c7);
+        
+
+        marker_ce98b2da6c97f46ac457a8c2bbbe2075.bindPopup(popup_649ba71a3d7fd66cd74e1a22fd5bb2f5)
+        ;
+
+        
+    
+    
+            var marker_59f2f419d598f039663ed86b7d39f9a3 = L.marker(
+                [1.31, 103.91],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_955637d89d841137036cc7c31c3f7518 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_59f2f419d598f039663ed86b7d39f9a3.setIcon(icon_955637d89d841137036cc7c31c3f7518);
+        
+    
+        var popup_9626a183644ae747d93eb9b20bff5ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f0a414d23be3cac473e0f2a29b43187 = $(`<div id="html_1f0a414d23be3cac473e0f2a29b43187" style="width: 100.0%; height: 100.0%;"><b>Bakersmith</b><br>Category: Retail<br>Address: Blk 84 Marine Parade Central #01-46</div>`)[0];
+            popup_9626a183644ae747d93eb9b20bff5ca5.setContent(html_1f0a414d23be3cac473e0f2a29b43187);
+        
+
+        marker_59f2f419d598f039663ed86b7d39f9a3.bindPopup(popup_9626a183644ae747d93eb9b20bff5ca5)
+        ;
+
+        
+    
+    
+            var marker_d766b13f07418d8f7555c929331e0a8c = L.marker(
+                [1.36, 103.87],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_3d523969b037b8717f6ba35647984c0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d766b13f07418d8f7555c929331e0a8c.setIcon(icon_3d523969b037b8717f6ba35647984c0d);
+        
+    
+        var popup_89d1088645e9e925816412217c2dfa25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5681c2efb8111bc68b22cefb182a8865 = $(`<div id="html_5681c2efb8111bc68b22cefb182a8865" style="width: 100.0%; height: 100.0%;"><b>Foodlink & Select</b><br>Category: Manufacturer & Catering<br>Address: 171 Kampong Ampat / 24A Senoko South Rd</div>`)[0];
+            popup_89d1088645e9e925816412217c2dfa25.setContent(html_5681c2efb8111bc68b22cefb182a8865);
+        
+
+        marker_d766b13f07418d8f7555c929331e0a8c.bindPopup(popup_89d1088645e9e925816412217c2dfa25)
+        ;
+
+        
+    
+    
+            var marker_d59909191218d8cb60821ca10fcf232f = L.marker(
+                [-36.87, 174.63],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_85dff434c83184c3bc17c4d599fb40bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d59909191218d8cb60821ca10fcf232f.setIcon(icon_85dff434c83184c3bc17c4d599fb40bc);
+        
+    
+        var popup_aea9de7b6e6104227795908b70d751f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5525becada924da00ffad2e52eec1031 = $(`<div id="html_5525becada924da00ffad2e52eec1031" style="width: 100.0%; height: 100.0%;"><b>Lincoln Bakery Supplies</b><br>Category: Manufacturer (NZ)<br>Address: 34 Bruce McLaren Rd, Henderson, Auckland</div>`)[0];
+            popup_aea9de7b6e6104227795908b70d751f0.setContent(html_5525becada924da00ffad2e52eec1031);
+        
+
+        marker_d59909191218d8cb60821ca10fcf232f.bindPopup(popup_aea9de7b6e6104227795908b70d751f0)
+        ;
+
+        
+    
+    
+            var marker_00e783d662fed9637cee717271632de3 = L.marker(
+                [3.15, 101.75],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_5c47d5e707e004df55930ff255979ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_00e783d662fed9637cee717271632de3.setIcon(icon_5c47d5e707e004df55930ff255979ebf);
+        
+    
+        var popup_cc90d43632dbb4ce203a30a9cab00bac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f7bfd4b8a341605e261100dfdf97539 = $(`<div id="html_4f7bfd4b8a341605e261100dfdf97539" style="width: 100.0%; height: 100.0%;"><b>Trans Bakery Distribution</b><br>Category: Wholesale (MY)<br>Address: Ampang, Selangor, Malaysia</div>`)[0];
+            popup_cc90d43632dbb4ce203a30a9cab00bac.setContent(html_4f7bfd4b8a341605e261100dfdf97539);
+        
+
+        marker_00e783d662fed9637cee717271632de3.bindPopup(popup_cc90d43632dbb4ce203a30a9cab00bac)
+        ;
+
+        
+    
+    
+            var marker_ff01cc04c20a112ff52b7873f1665acd = L.marker(
+                [1.44, 103.79],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_03e980548bbd61abda2c5e8409060510 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ff01cc04c20a112ff52b7873f1665acd.setIcon(icon_03e980548bbd61abda2c5e8409060510);
+        
+    
+        var popup_e487e953e262e3516a7ea02db5f792fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b23cfbac4ee0c6a3dc1cb7f71a78a2a5 = $(`<div id="html_b23cfbac4ee0c6a3dc1cb7f71a78a2a5" style="width: 100.0%; height: 100.0%;"><b>Bake Mission</b><br>Category: Manufacturer<br>Address: 1 Woodlands Height #06-01, 737859</div>`)[0];
+            popup_e487e953e262e3516a7ea02db5f792fc.setContent(html_b23cfbac4ee0c6a3dc1cb7f71a78a2a5);
+        
+
+        marker_ff01cc04c20a112ff52b7873f1665acd.bindPopup(popup_e487e953e262e3516a7ea02db5f792fc)
+        ;
+
+        
+    
+    
+            var marker_ec3bc4c823fccbdbedb9d753a0302621 = L.marker(
+                [1.37, 103.86],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_3876f02519e744e641cd798a43451309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec3bc4c823fccbdbedb9d753a0302621.setIcon(icon_3876f02519e744e641cd798a43451309);
+        
+    
+        var popup_451191bf91b2699bc19019da823db636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7248b3874477d20aad96803d8a1180d = $(`<div id="html_b7248b3874477d20aad96803d8a1180d" style="width: 100.0%; height: 100.0%;"><b>The Bread and Butter</b><br>Category: Retail + Wholesale<br>Address: 7 Ang Mo Kio St 66 #01-08, 567708</div>`)[0];
+            popup_451191bf91b2699bc19019da823db636.setContent(html_b7248b3874477d20aad96803d8a1180d);
+        
+
+        marker_ec3bc4c823fccbdbedb9d753a0302621.bindPopup(popup_451191bf91b2699bc19019da823db636)
+        ;
+
+        
+    
+    
+            var marker_655b4c7d809ef69470b8e59b002545c6 = L.marker(
+                [1.37, 103.88],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_10f5034950e4c91d71291d0829de52e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_655b4c7d809ef69470b8e59b002545c6.setIcon(icon_10f5034950e4c91d71291d0829de52e0);
+        
+    
+        var popup_e18f2f209f8f0698856d21d1f26ddbfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_021005767f604bbb849c1286379ac8fd = $(`<div id="html_021005767f604bbb849c1286379ac8fd" style="width: 100.0%; height: 100.0%;"><b>Lesaffre Singapore</b><br>Category: Manufacturer<br>Address: 23 Serangoon North Ave 5 #06-02, 554530</div>`)[0];
+            popup_e18f2f209f8f0698856d21d1f26ddbfb.setContent(html_021005767f604bbb849c1286379ac8fd);
+        
+
+        marker_655b4c7d809ef69470b8e59b002545c6.bindPopup(popup_e18f2f209f8f0698856d21d1f26ddbfb)
+        ;
+
+        
+    
+    
+            var marker_5d5dcdcee0e1459e2d8b20581e7b8d14 = L.marker(
+                [1.31, 103.75],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_d9a779282cc655e2be4c592335064c0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d5dcdcee0e1459e2d8b20581e7b8d14.setIcon(icon_d9a779282cc655e2be4c592335064c0a);
+        
+    
+        var popup_28c79f2e7bc806b609517e4a14dd94e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06707f77fb5dab03a6c666e81e6f4c7a = $(`<div id="html_06707f77fb5dab03a6c666e81e6f4c7a" style="width: 100.0%; height: 100.0%;"><b>Pastry World</b><br>Category: Wholesale<br>Address: 194 Pandan Loop #07-16 / Oxley BizHub</div>`)[0];
+            popup_28c79f2e7bc806b609517e4a14dd94e3.setContent(html_06707f77fb5dab03a6c666e81e6f4c7a);
+        
+
+        marker_5d5dcdcee0e1459e2d8b20581e7b8d14.bindPopup(popup_28c79f2e7bc806b609517e4a14dd94e3)
+        ;
+
+        
+    
+    
+            var marker_721f1497b69d6db2dc13d1285b4368b1 = L.marker(
+                [1.33, 103.9],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_9f7af409f92f6cde26d98aa972b413b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_721f1497b69d6db2dc13d1285b4368b1.setIcon(icon_9f7af409f92f6cde26d98aa972b413b7);
+        
+    
+        var popup_b27e2e0d69b04181a9e298540042de5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_def245bffbe906be5112ab7376fd50a9 = $(`<div id="html_def245bffbe906be5112ab7376fd50a9" style="width: 100.0%; height: 100.0%;"><b>IMEI</b><br>Category: Importer & Wholesale<br>Address: 3 Kaki Bukit Rd 2 #01-04, 417837</div>`)[0];
+            popup_b27e2e0d69b04181a9e298540042de5f.setContent(html_def245bffbe906be5112ab7376fd50a9);
+        
+
+        marker_721f1497b69d6db2dc13d1285b4368b1.bindPopup(popup_b27e2e0d69b04181a9e298540042de5f)
+        ;
+
+        
+    
+    
+            var marker_15e0dc2ffa4e91373f1c7d0261673966 = L.marker(
+                [1.31, 103.75],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_a5d77bc682e8d4aa1b10f82daae59214 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15e0dc2ffa4e91373f1c7d0261673966.setIcon(icon_a5d77bc682e8d4aa1b10f82daae59214);
+        
+    
+        var popup_bb5719d9fda16a4bad0b8121016b7116 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0809925b7c015cec599914ae238e1e73 = $(`<div id="html_0809925b7c015cec599914ae238e1e73" style="width: 100.0%; height: 100.0%;"><b>Angliss</b><br>Category: Wholesale (Cold Chain)<br>Address: 232 Pandan Loop, 128420</div>`)[0];
+            popup_bb5719d9fda16a4bad0b8121016b7116.setContent(html_0809925b7c015cec599914ae238e1e73);
+        
+
+        marker_15e0dc2ffa4e91373f1c7d0261673966.bindPopup(popup_bb5719d9fda16a4bad0b8121016b7116)
+        ;
+
+        
+    
+    
+            var marker_515fffcbeaf975ba3b1719dfc546b118 = L.marker(
+                [1.335, 103.89],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_5ae0ffe26f83d738c1e5cb8943fccefe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_515fffcbeaf975ba3b1719dfc546b118.setIcon(icon_5ae0ffe26f83d738c1e5cb8943fccefe);
+        
+    
+        var popup_7d18205005239d26408e041f2051224c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c6123ba7cc7b4de972e0c2051201cf4 = $(`<div id="html_6c6123ba7cc7b4de972e0c2051201cf4" style="width: 100.0%; height: 100.0%;"><b>Delifrance</b><br>Category: Retail & Bakery<br>Address: 10 Jalan Kilang, Singapore 159410</div>`)[0];
+            popup_7d18205005239d26408e041f2051224c.setContent(html_6c6123ba7cc7b4de972e0c2051201cf4);
+        
+
+        marker_515fffcbeaf975ba3b1719dfc546b118.bindPopup(popup_7d18205005239d26408e041f2051224c)
+        ;
+
+        
+    
+    
+            var marker_c8b6f9f8aa0b805bc383776214ff6375 = L.marker(
+                [1.285, 103.85],
+                {}
+            ).addTo(map_8fd348efa95604859b889e9c3ba46508);
+        
+    
+            var icon_2154473c1f10aa262aca7bc566d9307a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c8b6f9f8aa0b805bc383776214ff6375.setIcon(icon_2154473c1f10aa262aca7bc566d9307a);
+        
+    
+        var popup_207ba1fc434ba196a4ea62c362f603ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a0a688d9d480ea8683fbb236d2276ca = $(`<div id="html_0a0a688d9d480ea8683fbb236d2276ca" style="width: 100.0%; height: 100.0%;"><b>Indoguna Singapore</b><br>Category: Wholesale (Premium Foods)<br>Address: 36 & 38 Senoko Drive, Singapore 758221</div>`)[0];
+            popup_207ba1fc434ba196a4ea62c362f603ee.setContent(html_0a0a688d9d480ea8683fbb236d2276ca);
+        
+
+        marker_c8b6f9f8aa0b805bc383776214ff6375.bindPopup(popup_207ba1fc434ba196a4ea62c362f603ee)
+        ;
+
+        
+    
+</script>
+</html>
